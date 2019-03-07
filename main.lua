@@ -57,7 +57,7 @@ local function calculateButtonTouch( event )
     local circumfrenceOfcircle
     circumfrenceOfcircle = circumfrenceOfCircleTextField.text
     diameterOfCircle = diameterOfCircleTextField.text
-    areaOfCircle = (diameterOfCircle/2 * diameterOfCircle/2) * 3.14159265359
+    areaOfCircle = ((diameterOfCircle/2 * diameterOfCircle/2)) * 3.14159265359
     circumfrenceOfcircle = diameterOfCircle * 3.14159265359
 
 
